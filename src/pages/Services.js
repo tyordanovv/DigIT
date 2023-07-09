@@ -1,6 +1,6 @@
-import NavBar from "../components/NavBar"
-import Footer from "../components/Footer"
-import TextField from "../components/TextField"
+import NavBar from "../components/header/NavBar"
+import Footer from "../components/footer/Footer"
+import TextField from "../components/header/TextField"
 
 function Services() {
     return(

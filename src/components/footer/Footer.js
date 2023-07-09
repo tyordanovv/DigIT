@@ -9,12 +9,12 @@ import {
   
   const Footer = () => {
     return (
-      <footer className="text-white w-full flex-col inset-0 bg-cover bg-no-repeat"
+      <footer className="realtive text-white w-full inset-0 bg-cover bg-no-repeat"
       style={{
         backgroundImage: `url(${process.env.PUBLIC_URL}/Mauve.jpg)`,
         zIndex: -2,
         }}>
-          <div className="flex space-between p-8" >
+          <div className="flex flex-col p-4 md:flex-row space-between md:p-8 gap-4" >
             <div className="flex-1">
               {/* List of contacts */}
               <div className="flex flex-row gap-2 py-2">
