@@ -10,7 +10,7 @@ const NavBar = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           {/* left part of the nav bar logo */}
-          <a href="/home" className="text-white text-2xl font-bold">
+          <a href="/" className="text-white text-2xl font-bold">
             DigIT Solutions
           </a>
 
@@ -26,25 +26,23 @@ const NavBar = () => {
 
 					<div className="mt-4 flex flex-col">
 						<a
-						href="Home"
+						href="/about"
 						className="text-white hover:text-teal-200 mb-2"
-						>
-							About us
-						</a>
+						>About us</a>
 						<a
-						href="Services"
+						href="/services"
 						className="text-white hover:text-teal-200 mb-2"
 						>
 							Services
 						</a>
 						<a
-						href="Jobs"
+						href="/jobs"
 						className="text-white hover:text-teal-200 mb-2"
 						>
 							Jobs
 						</a>
 						<a
-						href="Contact Us"
+						href="/contact"
 						className="text-white hover:text-teal-200"
 						>
 							Contact Us
@@ -58,16 +56,16 @@ const NavBar = () => {
           {/* Navigation links for larger screens */}
           <div className="hidden md:block">
             <div className="flex gap-10">
-              <a href="Home" className="text-white hover:text-teal-200">
+              <a href="/about" className="text-white hover:text-teal-200">
                 About us
               </a>
-              <a href="Services" className="text-white hover:text-teal-200">
+              <a href="/services" className="text-white hover:text-teal-200">
                 Services
               </a>
-              <a href="Jobs" className="text-white hover:text-teal-200">
+              <a href="/jobs" className="text-white hover:text-teal-200">
                 Jobs
               </a>
-              <a href="Contact Us" className="text-white hover:text-teal-200">
+              <a href="/contact" className="text-white hover:text-teal-200">
                 Contact Us
               </a>
             </div>

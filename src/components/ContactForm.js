@@ -24,25 +24,22 @@ function ContactForm(){
   
     const handleSubmit = (e) => {
       e.preventDefault();
-      // Here, you can perform further actions like sending the form data to a server
-  
-      // Reset the form fields
       setName('');
       setPhone('');
       setEmail('');
       setMessage('');
     };
     return(
-        <div className="flex flex-col relative">
+        <div className="flex flex-col py-8 relative border-slate-600">
             {/* heading of the contact form */}
             <div className="text-black text-3xl font-bold text-center py-10">
                 Write us an e-mail
             </div>
             <div className="flex flex-col md:flex-row">
                 {/* contact form */}
-                <div className="flex-1 p-6">
-                    <div>
-                        <label htmlFor='name'>Name:</label>
+                <div className="flex-1 p-8">
+                    <div className='py-3'>
+                        <label className="font-bold" htmlFor='name'>Name:</label>
                         <input 
                             type='text'
                             id='name'
@@ -52,8 +49,8 @@ function ContactForm(){
 
                         />
                     </div>
-                    <div>
-                        <label htmlFor='phone'>Phone:</label>
+                    <div className='py-3'>
+                        <label className="font-bold" htmlFor='phone'>Phone:</label>
                         <input 
                             type='text'
                             id='phone'
@@ -63,8 +60,8 @@ function ContactForm(){
 
                         />
                     </div>
-                    <div>
-                        <label htmlFor='email'>E-mail:</label>
+                    <div className='py-3'>
+                        <label className="font-bold" htmlFor='email'>E-mail:</label>
                         <input 
                             type='text'
                             id='email'
@@ -73,8 +70,8 @@ function ContactForm(){
                             className="w-full border border-gray-300 rounded px-4 py-2"
                         />
                     </div>
-                    <div>
-                        <label htmlFor='message'>Message:</label>
+                    <div className='py-3'>
+                        <label className="font-bold" htmlFor='message'>Message:</label>
                         <input 
                             type='textarea'
                             id='message'
@@ -84,18 +81,24 @@ function ContactForm(){
                         />
                     </div>
                     {/* submit button */}
-                    <button type="submit" className="border border-gray-300 rounded px-4 py-2 float-right" onClick={handleSubmit}>
-                        Submit
-                    </button>
+                    <div className='pt-2'>
+                        <button type="submit" className="border font-bold border-gray-300 rounded px-6 py-2 float-right" onClick={handleSubmit}>
+                            Submit
+                        </button>
+                    </div>
                 </div>
                 {/* contact data */}
-                <div className="flex-1 p-6">
-                    <h2>Address</h2>
-                    <p>Burgas, Bulgaria</p>
-                    <h2>Contacts</h2>
-                    <p>+359 88 8888888</p>
-                    <p>+359 88 8888888</p>
-                    <p>info@digit-solutions.com</p>
+                <div className="flex-1 p-8 self-center">
+                    <div className='py-4'>
+                        <h2 className='font-bold'>Address</h2>
+                        <p>Burgas, Bulgaria</p>
+                    </div>
+                    <div className='py-4'>
+                        <h2 className='font-bold'>Contacts</h2>
+                        <p>+359 88 8888888</p>
+                        <p>+359 88 8888888</p>
+                        <p>info@digit-solutions.com</p>
+                    </div>
                 </div>
             </div>
         </div>

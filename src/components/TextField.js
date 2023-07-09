@@ -1,4 +1,4 @@
-function MainText({ text }){
+function TextField({ text }){
     return(
         <div className="relative h-screen/2">
             <div
@@ -17,4 +17,4 @@ function MainText({ text }){
     )
 }
 
-export default MainText;
+export default TextField;
