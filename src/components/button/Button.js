@@ -6,7 +6,7 @@ function Button({text, link}){
                     <span class="text-sm md:text-base font-medium z-10">
                         {text}
                     </span>
-                    <span class="absolute h-full w-0 left-0 bottom-0 top-0 transition-all group-hover:h-40 group-hover:w-96 group-hover:bg-black group-focus:w-full duration-500">
+                    <span class="absolute h-full w-0 left-0 bottom-0 top-0 transition-all group-hover:h-40 group-hover:w-96 group-hover:bg-bg-purple group-focus:w-full duration-500">
                     </span>
                 </div>
             </a>

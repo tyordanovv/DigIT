@@ -14,9 +14,9 @@ import {
         backgroundImage: `url(${process.env.PUBLIC_URL}/Mauve.jpg)`,
         zIndex: -2,
         }}>
-          <div className="flex flex-col p-4 md:flex-row space-between md:p-8 gap-4" >
-            <div className="flex-1">
-              {/* List of contacts */}
+          <div className="flex items-center justify-center gap-8 flex-row flex-wrap lg:flex-nowrap" >
+            {/* List of contacts */}
+            <div className="flex-grow relative flex flex-col items-start max-w-md px-6 py-5 overflow-hidden  md:m-8">
               <div className="flex flex-row gap-2 py-2">
                 <FaPhone className="pt-1"/>
                 <h3>Contact:</h3>
@@ -26,22 +26,23 @@ import {
                 <p>Email: info@digit-solutions.com</p>
               </div>
             </div>
-            <div className="flex-1">
-              {/* List of our services */}
+
+            {/* List of our services */}
+            <div className="flex-grow relative flex flex-col items-start max-w-md px-6 py-5 overflow-hidden md:m-8">
               <div className="flex flex-row gap-2 py-2">
                 <FaDesktop className="pt-1"/> 
                 <h3>Services:</h3>
               </div>
-              <div className="text-slate-400">
-                <p>Software Development</p>
-                <p>Mobile Development</p>
-                <p>UX/UI Design</p>
-                <p>Marketing</p>
-                <p>Process automation</p>
+              <div className="text-slate-400 flex flex-col">
+                <a href="/services">Software Development</a>
+                <a href="/services">Mobile Development</a>
+                <a href="/services">UX/UI Design</a>
+                <a href="/services">Marketing</a>
+                <a href="/services">Process automation</a>
               </div>
             </div>
             {/* List of social media */}
-            <div className="flex-1">
+            <div className="flex-grow relative flex flex-col items-start max-w-md px-6 py-5 overflow-hidden md:m-8">
               <h3 className="py-2">Follow us:</h3>
               <ul className="text-slate-400">
                 <li className="flex flex-row gap-2">

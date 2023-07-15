@@ -16,8 +16,9 @@ const AboutSummary = () => {
             <p class="mb-4 md:font-light text-neutral-500 md:text-2xl">
                 We offer custom reliable solutions, which streamline your processes, automate tasks, and maximize efficiency, ensuring your business operates at its full potential
                 </p>
-                <Button text={"Learn more"} link={"/about"}/>
-            
+                <div className="flex justify-center py-6">
+                    <Button text={"Learn more"} link={"/services"}/>
+                </div>
             </div>
         </div>
     )
