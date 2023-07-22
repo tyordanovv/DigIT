@@ -2,7 +2,7 @@ import NavBar from "../components/header/NavBar"
 import Footer from "../components/footer/Footer"
 import TextField from "../components/header/TextField"
 
-function Jobs() {
+function Projects() {
     return(
         <dev>
             <NavBar />
@@ -12,4 +12,4 @@ function Jobs() {
     )
 }
 
-export default Jobs
+export default Projects;
