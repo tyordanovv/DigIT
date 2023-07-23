@@ -1,12 +1,12 @@
 import ContactForm from "../components/contactpage/ContactForm"
 import Footer from "../components/footer/Footer"
 import TextField from "../components/header/TextField"
-import NavBar from "../components/header/NavBar"
+import Nav from "../components/header/Nav"
 
 function Contact() {
     return(
         <dev>
-            <NavBar />
+            <Nav />
             <TextField text="Do not hesitate to contact us right now."/>
             <ContactForm />
             <Footer />

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-const NavBar = () => {
+const Nav = () => {
   const [click, setClick] = useState(true);
   const handleClick = () => setClick(!click);
 
@@ -62,8 +62,8 @@ const NavBar = () => {
               <a href="/services" className="text-white hover:text-teal-200">
                 Services
               </a>
-              <a href="/jobs" className="text-white hover:text-teal-200">
-                Jobs
+              <a href="/projects" className="text-white hover:text-teal-200">
+                Projects
               </a>
               <a href="/contact" className="text-white hover:text-teal-200">
                 Contact Us
@@ -76,4 +76,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Nav;

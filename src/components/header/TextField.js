@@ -2,7 +2,7 @@ function TextField({ text }){
     return(
         <div className="relative h-screen/2">
             <div
-            className="opacity-30 absolute inset-0 bg-cover bg-no-repeat"
+            className="absolute inset-0 bg-cover bg-no-repeat"
             style={{
             backgroundImage: `url(${process.env.PUBLIC_URL}/Mauve.jpg)`,
             zIndex: -2,
