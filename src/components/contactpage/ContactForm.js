@@ -82,7 +82,7 @@ function ContactForm(){
                     </div>
                     {/* submit button */}
                     <div className='pt-2'>
-                        <button type="submit" className="border font-bold border-gray-300 rounded px-6 py-2 float-right" onClick={handleSubmit}>
+                        <button type="submit" className="border font-bold border-gray-300 rounded px-6 py-2 float-left" onClick={handleSubmit}>
                             Submit
                         </button>
                     </div>

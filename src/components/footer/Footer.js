@@ -16,7 +16,7 @@ import {
         }}>
           <div className="flex items-center justify-center gap-8 flex-row flex-wrap lg:flex-nowrap" >
             {/* List of contacts */}
-            <div className="flex-grow relative flex flex-col items-start max-w-md px-6 py-5 overflow-hidden  md:m-8">
+            <div className="flex-grow relative flex flex-col items-start max-w-md px-6 py-5 overflow-hidden md:m-8">
               <div className="flex flex-row gap-2 py-2">
                 <FaPhone className="pt-1"/>
                 <h3>Contact:</h3>

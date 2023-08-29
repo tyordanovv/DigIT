@@ -9,7 +9,7 @@ function AboutField() {
 				relative z-10 py-32 bg-neutral-100 md:rounded-none 
 			'
       >
-        <div className='flex justify-center gap-2 items-center mb-6 p-6 select-none'>
+        <div className='flex justify-center gap-2 items-center mb-6 p-6'>
           <h3 className='text-xl md:text-5xl opacity-60 md:opacity-40 font-semibold text-df-accent'>
             Who are we
           </h3>
@@ -19,6 +19,7 @@ function AboutField() {
             We will make your software
           </p>
         </div>
+        {/* Container for about cards*/}
         <div className='flex flex-col content-start md:flex-row flex-wrap gap-10 justify-center items-center md:px-2 md:min-h-[35vh] '>
           <AboutCard
             title={'01 - Who are we'}
